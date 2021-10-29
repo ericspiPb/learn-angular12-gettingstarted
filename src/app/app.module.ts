@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CartComponent
   ],
   bootstrap: [
     AppComponent
